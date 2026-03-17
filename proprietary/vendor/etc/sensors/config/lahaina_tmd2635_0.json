@@ -1,0 +1,186 @@
+{
+  "config":{
+    "hw_platform": ["QRD", "Ingot"],
+    "soc_id": ["415"]
+  },
+  "tmd2635_0":{
+    "owner": "sns_tmd2635",
+    ".prox":{
+      "owner": "sns_tmd2635",
+      ".config":{
+        "owner": "sns_tmd2635",
+        "is_dri":{ "type": "int", "ver": "0",
+                   "data": "1"
+                 },
+        "hw_id":{ "type": "int", "ver": "0",
+                  "data": "0"
+                },
+        "res_idx":{ "type": "int", "ver": "0",
+                    "data": "0"
+                  },
+        "sync_stream":{ "type": "int", "ver": "0",
+                        "data": "0"
+                      }
+      }
+    }
+  },
+  "tmd2635_0_platform":{
+    "owner": "sns_tmd2635",
+    ".config":{
+      "owner": "sns_tmd2635",
+      "bus_type":{ "type": "int", "ver": "0",
+                   "data": "0"
+                 },
+      "bus_instance":{ "type": "int", "ver": "0",
+                       "data": "5"
+                     },
+      "slave_config":{ "type": "int", "ver": "0",
+                       "data": "56"
+                     },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+                            "data": "400"
+                          },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+                            "data": "400"
+                          },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+                        "data": "0"
+                      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+                      "data": "185"
+                    },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+                        "data": "0"
+                      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+                          "data": "1"
+                        },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+                             "data": "0"
+                           },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+                           "data": "1"
+                         },
+      "num_rail":{ "type": "int", "ver": "0",
+                   "data": "2"
+                 },
+      "rail_on_state":{ "type": "int", "ver": "0",
+                        "data": "2"
+                      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+                   "data": "/pmic/client/sensor_vdd"
+                 },
+      "vddio_rail":{ "type": "str", "ver": "0",
+                     "data": "/pmic/client/sensor_vddio"
+                   },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+                          "data": "0"
+                        }
+    },
+    ".prox":{
+      "owner": "sns_tmd2635",
+      ".fac_cal":{
+        "owner": "sns_tmd2635",
+        "near_threshold":{ "type": "flt", "ver": "0",
+                           "data": "140.0"
+                         },
+        "far_threshold":{ "type": "flt", "ver": "0",
+                          "data": "40.0"
+                        }
+      },
+      ".prox_offset_hw_cal":{
+        "owner": "sns_tmd2635",
+        "p_offset_mag":{ "type": "flt", "ver": "0",
+                       "data": "0.0"
+                     },
+        "p_offset_sign":{ "type": "flt", "ver": "0",
+                           "data": "0.0"
+                         }
+      },
+      ".def_config":{
+        "owner": "sns_tmd2635",
+        "p_time_uSec":{ "type": "flt", "ver": "0",
+                  "data": "3080.0"
+                },
+        "p_wtime_uSec":{ "type": "flt", "ver": "0",
+                  "data": "2780.0"
+                },
+        "p_wlong":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+        "p_pulse_len":{ "type": "flt", "ver": "0",
+                       "data": "12.0"
+                     },
+        "p_pulse":{ "type": "flt", "ver": "0",
+                   "data": "16.0"
+                 },
+        "p_gain":{ "type": "flt", "ver": "0",
+                  "data": "1000.0"
+                },
+        "p_ldrive_mA":{ "type": "flt", "ver": "0",
+                    "data": "7.0"
+                  },
+        "p_pers":{ "type": "flt", "ver": "0",
+                  "data": "1.0"
+                },
+        "p_upper_thrs":{ "type": "flt", "ver": "0",
+                        "data": "140.0"
+                      },
+        "p_lower_thrs":{ "type": "flt", "ver": "0",
+                        "data": "40.0"
+                      },
+        "p_bin_search":{ "type": "flt", "ver": "0",
+                         "data": "15.0"
+                       },
+        "p_adc_bits":{ "type": "flt", "ver": "0",
+                      "data": "14.0"
+                    },
+        "p_apc_disable":{ "type": "flt", "ver": "0",
+                       "data": "0.0"
+                     },
+        "photodiode_select":{ "type": "flt", "ver": "0",
+                       "data": "2.0"
+                     }
+      }
+    },
+    ".placement":{
+      "owner": "sns_tmd2635",
+      "0":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "1":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "2":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "3":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "4":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "5":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "6":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "7":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "8":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "9":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+      "10":{ "type": "flt", "ver": "0",
+             "data": "0.0"
+           },
+      "11":{ "type": "flt", "ver": "0",
+             "data": "0.0"
+           }
+    }
+  }
+}
