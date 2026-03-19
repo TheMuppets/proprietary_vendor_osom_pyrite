@@ -10503,7 +10503,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "camera.qcom",
+    name: "camera.ingot",
     owner: "osom",
     strip: {
         none: true,
@@ -10511,7 +10511,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/camera.qcom.so",
+                "proprietary/vendor/lib64/hw/camera.ingot.so",
             ],
             shared_libs: [
                 "libc++",
@@ -10655,7 +10655,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "fingerprint.lahaina",
+    name: "fingerprint.ingot",
     owner: "osom",
     strip: {
         none: true,
@@ -10663,7 +10663,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.lahaina.so",
+                "proprietary/vendor/lib64/hw/fingerprint.ingot.so",
             ],
             shared_libs: [
                 "libgf_hal",

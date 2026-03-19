@@ -597,10 +597,10 @@ PRODUCT_PACKAGES += \
     deviceInfoServiceModuleNr \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
-    camera.qcom \
+    camera.ingot \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    fingerprint.lahaina \
+    fingerprint.ingot \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
