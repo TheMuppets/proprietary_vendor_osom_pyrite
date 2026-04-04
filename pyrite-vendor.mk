@@ -933,7 +933,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     uimgbaservice \
-    EuiccGoogle \
     ImsRcsService \
     PowerOffAlarm \
     QtiTelephonyService \
