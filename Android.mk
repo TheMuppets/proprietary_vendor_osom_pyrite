@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),pyrite)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,b242b66713cb43c957821105c266f6112dc8463d)
+$(call add-radio-file-sha1-checked,radio/abl.img,1f59b642d50a87ab190e194f9853ac03347e4ae4)
 $(call add-radio-file-sha1-checked,radio/aop.img,c7dfc95a16cb9728a72140f2e5a784895a55fe80)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,c98ff8b00f1a433a639974767a05f36d2d9eff10)
 $(call add-radio-file-sha1-checked,radio/cpucp.img,7daf495084a631ce039b1af232e42990ca284379)
